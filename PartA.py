@@ -62,3 +62,6 @@ if __name__ == "__main__":
     tokens = tokenize(filepath)
     frequencies = computeWordFrequencies(tokens)
     print_frequencies(frequencies)
+
+# If you are confused on how to run this type in the terminal:
+# python PartA.py <file path> >output.txt

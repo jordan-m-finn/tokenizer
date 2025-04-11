@@ -33,3 +33,6 @@ def compare_tokens(filepath_one, filepath_two):
         sys.exit(1)
 
 print(compare_tokens(filepath_one, filepath_two))
+
+# if you are confused on how to run this code in the terminal
+# python PartB.py <filepath_one> <filepath_two>
