@@ -55,7 +55,7 @@ def print_frequencies(frequency_map):
 # Check if command line argument is provided
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Error: Please provide a file path as command line argument (e.g., 'python PartA.py input.txt >output.txt')")
+        print("Error: Please provide a file path as command line argument (e.g., 'python PartA.py file.txt >output.txt')")
         sys.exit(1)
     
     filepath = sys.argv[1]
