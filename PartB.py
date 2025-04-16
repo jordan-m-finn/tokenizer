@@ -7,7 +7,7 @@ PartA = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(PartA)
 
 if len(sys.argv) < 3:
-    print("Error: Please provide exactly two file paths")
+    print("Error: Please provide two file paths as command line arguments (e.g., 'python PartB.py file1.txt file2.txt')")
     sys.exit(1)
 
 filepath_one = sys.argv[1]
